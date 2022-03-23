@@ -34,7 +34,8 @@ public class singleton implements Serializable{
 // eg controler, db
 
 // what is volatile key word?
-//  Volatile keyword is used to modify the value of a variable by different threads
+// suppose two thread are working on one object and if both are running in different processors. then they might have local copy of the object in each processors.
+// if one thread make any change to a static parameter. it will take some time to reflect in other thred local copy. so data consistancy can happen. so better to use volatile key word which will reflect the changes immediatley.
 // how to break the double check singleton?
 // class loaders, serialization, externalization, reflection.
 // what is marker interface?
