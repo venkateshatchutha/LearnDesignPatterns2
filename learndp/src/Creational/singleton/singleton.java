@@ -32,7 +32,7 @@ public class singleton implements Serializable{
 }
 
 // eg controler, db
-
+//p1,p2
 // what is volatile key word?
 // suppose two thread are working on one object and if both are running in different processors. then they might have local copy of the object in each processors.
 // if one thread make any change to a static parameter. it will take some time to reflect in other thred local copy. so data consistancy can happen. so better to use volatile key word which will reflect the changes immediatley.
